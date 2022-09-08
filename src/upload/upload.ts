@@ -1,5 +1,5 @@
-import { BN, Program, web3 } from '@project-serum/anchor'
-import { PublicKey } from '@solana/web3.js'
+import { BN, Program, web3 } from '@j0nnyboi/anchor'
+import { PublicKey } from '@safecoin/web3.js'
 import { PromisePool } from '@supercharge/promise-pool'
 import { ICache, saveCache } from './../cache'
 import { StorageType } from '../enums'

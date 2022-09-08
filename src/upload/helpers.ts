@@ -1,5 +1,5 @@
-import * as anchor from '@project-serum/anchor'
-import { Keypair, PublicKey, SystemProgram } from '@solana/web3.js'
+import * as anchor from '@j0nnyboi/anchor'
+import { Keypair, PublicKey, SystemProgram } from '@safecoin/web3.js'
 import {
     CANDY_MACHINE_PROGRAM_V2_ID,
     CONFIG_ARRAY_START_V2,

@@ -1,5 +1,5 @@
-import { BN, web3, Program } from '@project-serum/anchor'
-import { PublicKey } from '@solana/web3.js'
+import { BN, web3, Program } from '@j0nnyboi/anchor'
+import { PublicKey } from '@safecoin/web3.js'
 import { DEFAULT_GATEKEEPER } from './constants'
 import { StorageType } from './enums'
 

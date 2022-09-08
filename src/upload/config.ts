@@ -1,6 +1,6 @@
-import * as anchor from '@project-serum/anchor'
-import { getAccount, getMint, TOKEN_PROGRAM_ID } from '@solana/spl-token'
-import { PublicKey } from '@solana/web3.js'
+import * as anchor from '@j0nnyboi/anchor'
+import { getAccount, getMint, TOKEN_PROGRAM_ID } from '@safecoin/safe-token'
+import { PublicKey } from '@safecoin/web3.js'
 import {
     CANDY_MACHINE_PROGRAM_V2_ID,
     SUPPORTED_ANIMATION_TYPES,

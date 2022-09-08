@@ -1,19 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@metaplex/arweave-cost': ^1.0.4
-  '@project-serum/anchor': ^0.25.0
-  '@solana/spl-token': ^0.2.0
-  '@solana/web3.js': ^1.50.1
+  '@j0nnyboi/arweave-cost': ^1.0.4
+  '@j0nnyboi/anchor': ^0.25.0
+  '@safecoin/safe-token': ^0.2.0
+  '@safecoin/web3.js': ^1.50.1
   '@supercharge/promise-pool': ^2.3.2
   js-file-download: ^0.4.12
   typescript: ^4.7.4
 
 dependencies:
-  '@metaplex/arweave-cost': 1.0.4
-  '@project-serum/anchor': 0.25.0
-  '@solana/spl-token': 0.2.0
-  '@solana/web3.js': 1.50.1
+  '@j0nnyboi/arweave-cost': 1.0.4
+  '@j0nnyboi/anchor': 0.25.0
+  '@safecoin/safe-token': 0.2.0
+  '@safecoin/web3.js': 1.50.1
   '@supercharge/promise-pool': 2.3.2
   js-file-download: 0.4.12
 
@@ -57,7 +57,7 @@ packages:
       '@hapi/hoek': 9.3.0
     dev: false
 
-  /@metaplex/arweave-cost/1.0.4:
+  /@j0nnyboi/arweave-cost/1.0.4:
     resolution: {integrity: sha512-bJ7knj9bacarfoIgkomDUOIRURYBAIYUg1oJZh1MfAl9w28x1gfMkt2e7H5zK0HDKkS2lmJQ5dpcsR+FGP9zMA==}
     dependencies:
       axios: 0.24.0_debug@4.3.4
@@ -66,12 +66,12 @@ packages:
       - supports-color
     dev: false
 
-  /@project-serum/anchor/0.25.0:
+  /@j0nnyboi/anchor/0.25.0:
     resolution: {integrity: sha512-E6A5Y/ijqpfMJ5psJvbw0kVTzLZFUcOFgs6eSM2M2iWE1lVRF18T6hWZVNl6zqZsoz98jgnNHtVGJMs+ds9A7A==}
     engines: {node: '>=11'}
     dependencies:
       '@project-serum/borsh': 0.2.5_@solana+web3.js@1.50.1
-      '@solana/web3.js': 1.50.1
+      '@safecoin/web3.js': 1.50.1
       base64-js: 1.5.1
       bn.js: 5.2.1
       bs58: 4.0.1
@@ -96,9 +96,9 @@ packages:
     resolution: {integrity: sha512-UmeUkUoKdQ7rhx6Leve1SssMR/Ghv8qrEiyywyxSWg7ooV7StdpPBhciiy5eB3T0qU1BXvdRNC8TdrkxK7WC5Q==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@solana/web3.js': ^1.2.0
+      '@safecoin/web3.js': ^1.2.0
     dependencies:
-      '@solana/web3.js': 1.50.1
+      '@safecoin/web3.js': 1.50.1
       bn.js: 5.2.1
       buffer-layout: 1.2.2
     dev: false
@@ -122,7 +122,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       '@solana/buffer-layout': 4.0.0
-      '@solana/web3.js': 1.50.1
+      '@safecoin/web3.js': 1.50.1
       bigint-buffer: 1.1.5
       bignumber.js: 9.1.0
     transitivePeerDependencies:
@@ -139,13 +139,13 @@ packages:
       buffer: 6.0.3
     dev: false
 
-  /@solana/spl-token/0.2.0:
+  /@safecoin/safe-token/0.2.0:
     resolution: {integrity: sha512-RWcn31OXtdqIxmkzQfB2R+WpsJOVS6rKuvpxJFjvik2LyODd+WN58ZP3Rpjpro03fscGAkzlFuP3r42doRJgyQ==}
     engines: {node: '>= 14'}
     dependencies:
       '@solana/buffer-layout': 4.0.0
       '@solana/buffer-layout-utils': 0.2.0
-      '@solana/web3.js': 1.50.1
+      '@safecoin/web3.js': 1.50.1
       start-server-and-test: 1.14.0
     transitivePeerDependencies:
       - bufferutil
@@ -155,7 +155,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@solana/web3.js/1.50.1:
+  /@safecoin/web3.js/1.50.1:
     resolution: {integrity: sha512-1l9N/nS8pJEA2YibNT8wa072718O0/A1eKWE0+pdWC5wDGQgBNxZSLuv7Cq5Dcn46WsZ5J5ZstK89q8J/ZZaQA==}
     engines: {node: '>=12.20.0'}
     dependencies:

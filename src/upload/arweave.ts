@@ -1,5 +1,5 @@
-import { calculate } from '@metaplex/arweave-cost'
-import * as anchor from '@project-serum/anchor'
+import { calculate } from '@j0nnyboi/arweave-cost'
+import * as anchor from '@j0nnyboi/anchor'
 import { ARWEAVE_PAYMENT_WALLET, ARWEAVE_UPLOAD_ENDPOINT,JSON_EXTENSION } from '../constants'
 import { Manifest } from '../types'
 import { getFileExtension } from './helpers'
@@ -13,7 +13,7 @@ async function fetchAssetCostToStore(fileSizes: number[]): Promise<number> {
     const result = await calculate(fileSizes)
     console.log('Arweave cost estimates:', result)
 
-    return result.solana * anchor.web3.LAMPORTS_PER_SOL
+    return result.safecoin * anchor.web3.LAMPORTS_PER_SAFE
 }
 
 /**

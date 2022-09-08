@@ -9,7 +9,7 @@ import {
     TransactionInstruction,
     TransactionSignature,
     Keypair,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { DEFAULT_TIMEOUT } from '../constants'
 import { getUnixTs, sleep } from './helpers'
 

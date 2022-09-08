@@ -1,9 +1,9 @@
-import { web3 } from "@project-serum/anchor";
+import { web3 } from "@j0nnyboi/anchor";
 import {
   Transaction,
   SYSVAR_SLOT_HASHES_PUBKEY,
   SystemProgram,
-} from "@solana/web3.js";
+} from "@safecoin/web3.js";
 import {
   CANDY_MACHINE_PROGRAM_V2_ID,
   TOKEN_METADATA_PROGRAM_ID,
@@ -21,7 +21,7 @@ import {
   createMintToInstruction,
   createAssociatedTokenAccountInstruction,
   MintLayout,
-} from "@solana/spl-token";
+} from "@safecoin/safe-token";
 import { sendTransactions, SequenceType } from "../upload/transactions";
 
 /**

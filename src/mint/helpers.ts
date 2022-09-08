@@ -1,4 +1,4 @@
-import { web3 } from "@project-serum/anchor";
+import { web3 } from "@j0nnyboi/anchor";
 import {
   CANDY_MACHINE_PROGRAM_V2_ID,
   SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID,

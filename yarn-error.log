@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\CCT\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\Geth;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Users\CCT\.local\share\solana\install\active_release\bin;C:\Users\CCT\.cargo\bin;C:\Python37\Scripts\;C:\Python37\;C:\Python38\Scripts\;C:\Python38\;C:\Users\CCT\AppData\Local\Microsoft\WindowsApps;C:\Users\CCT\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Ncrack;C:\Users\CCT\.dotnet\tools;C:\Users\CCT\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;C:\Users\CCT\AppData\Local\Keybase\;C:\Users\CCT\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\CCT\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/safecoin%2fweb3.js: Request "https://registry.yarnpkg.com/safecoin%2fweb3.js" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\CCT\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\CCT\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (C:\Users\CCT\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (C:\Users\CCT\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@boxfish-studio/candymachine-client-sdk",
+    "version": "0.1.0",
+    "description": "Metaplex Candy Machine Client SDK",
+    "keywords": [
+      "metaplex",
+      "candy-machine",
+      "solana",
+      "nft",
+      "client",
+      "sdk"
+    ],
+    "homepage": "https://boxfish.studio/",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/boxfish-studio/candymachine-client-sdk.git"
+    },
+    "bugs": {
+      "url": "http://github.com/boxfish-studio/candymachine-client-sdk.git/issues"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+      "compile": "tsc"
+    },
+    "author": "Boxfish Studio <info@boxfish.studio>",
+    "license": "Apache-2.0",
+    "devDependencies": {
+      "typescript": "^4.7.4"
+    },
+    "dependencies": {
+      "@j0nnyboi/arweave-cost": "^1.0.4",
+      "@j0nnyboi/anchor": "^0.24.2",
+      "@safecoin/safe-token": "^0.2.2",
+      "safecoin/web3.js": "^1.44.2",
+      "@supercharge/promise-pool": "^2.3.2",
+      "js-file-download": "^0.4.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

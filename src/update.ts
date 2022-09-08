@@ -1,5 +1,5 @@
-import { Program } from "@project-serum/anchor";
-import { PublicKey } from "@solana/web3.js";
+import { Program } from "@j0nnyboi/anchor";
+import { PublicKey } from "@safecoin/web3.js";
 import { ICache, saveCache } from "./cache";
 
 /**

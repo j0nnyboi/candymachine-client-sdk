@@ -1,4 +1,4 @@
-import { BN } from '@project-serum/anchor'
+import { BN } from '@j0nnyboi/anchor'
 import { NumberToString } from '../types'
 
 export interface ICache {

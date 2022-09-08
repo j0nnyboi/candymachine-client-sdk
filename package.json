@@ -1,5 +1,5 @@
 {
-  "name": "@boxfish-studio/candymachine-client-sdk",
+  "name": "@leda-mint-io/candymachine-client-sdk",
   "version": "0.1.0",
   "description": "Metaplex Candy Machine Client SDK",
   "keywords": [
@@ -10,13 +10,13 @@
     "client",
     "sdk"
   ],
-  "homepage": "https://boxfish.studio/",
+  "homepage": "https://ledamint.io/",
   "repository": {
     "type": "git",
-    "url": "http://github.com/boxfish-studio/candymachine-client-sdk.git"
+    "url": "http://github.com/leda-mint-io/candymachine-client-sdk.git"
   },
   "bugs": {
-    "url": "http://github.com/boxfish-studio/candymachine-client-sdk.git/issues"
+    "url": "http://github.com/leda-mint-io/candymachine-client-sdk.git/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -32,10 +32,10 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@metaplex/arweave-cost": "^1.0.4",
-    "@project-serum/anchor": "^0.25.0",
-    "@solana/spl-token": "^0.2.0",
-    "@solana/web3.js": "^1.50.1",
+    "@j0nnyboi/arweave-cost": "^1.0.4",
+    "@j0nnyboi/anchor": "^0.24.2",
+    "@safecoin/safe-token": "^0.2.2",
+    "@safecoin/web3.js": "^1.44.2",
     "@supercharge/promise-pool": "^2.3.2",
     "js-file-download": "^0.4.12"
   }
